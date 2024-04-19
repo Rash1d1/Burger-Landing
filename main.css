@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+p + p {
+    margin-top: 15px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #1c1c1c;
+}
+
+/*- Containers */
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+
+.header {
+    margin-top: 25px;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 500;
+    font-size: 16px;
+
+    width: 165px;
+    height: 50px;
+
+    background: #f6762c;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+.btn:hover
+ {
+    opacity: 0.8;
+
+ }
+ .logo__header {
+
+    
+}
+.header__nav a{
+    font-size: 14px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+
+}
+.header__nav a.active{
+    opacity: 1;
+    
+}
+.header__nav a:hover{
+    opacity: 0.85;
+    
+}
+.header__list {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.main {
+
+}
+
+/* welcome */
+
+.welcome {
+    box-sizing: border-box;
+    min-height: 100vh;
+
+    margin-top: -100px;
+    padding: 240px 0;
+
+    background-image: url(/images/welcome-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.welcome__text {
+    width: 550px;
+}
+
+.welcome__subtitle {
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    margin-bottom: 7px;
+    
+}
+.welcome__title {
+    font-size: 58px
+}
+.welcome__desc {
+    margin: 40px 0;
+    font-size: 18px;
+    opacity: 0.7;
+    
+}
+
+/* food_list */ 
+
+.food-list .container {
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 40px, 10px;
+    padding: 100px 0;
+}
+.food-list__card {
+    text-align: center;
+
+    width: 260px;
+    overflow: hidden;
+
+    border-radius: 10px;
+    background-color: #312F30;
+}
+
+.food-list__img {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+.food-list-text-wrapper {
+    margin: 30px 20px;
+}
+.food-list__title {
+    font-size: 20px;
+}
+
+.food-list__desc {
+    font-size: 16px;
+    opacity: 0.7;
+}
+
